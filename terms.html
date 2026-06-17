@@ -7,67 +7,72 @@
   <meta name="description" content="Terms of Use for IdiomSwipe.">
   <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+<body data-page="terms">
   <header class="site-header">
-    <a class="brand" href="index.html" aria-label="IdiomSwipe home">
+    <a class="brand" href="index.html" aria-label="IdiomSwipe home" data-i18n-aria="brandAria">
       <span class="brand-mark">IS</span>
       <span>IdiomSwipe</span>
     </a>
+    <div class="language-switch" role="group" aria-label="Language">
+      <button type="button" data-lang-option="en">EN</button>
+      <button type="button" data-lang-option="tr">TR</button>
+    </div>
     <nav class="site-nav legal-nav">
-      <a href="index.html">Home</a>
-      <a href="privacy.html">Privacy</a>
+      <a href="index.html" data-i18n="navHome">Home</a>
+      <a href="privacy.html" data-i18n="navPrivacy">Privacy</a>
     </nav>
   </header>
 
   <main class="legal-page">
-    <p class="eyebrow">Last updated: June 17, 2026</p>
-    <h1>Terms of Use</h1>
-    <p>These Terms apply to the IdiomSwipe iOS app and this website. By using IdiomSwipe, you agree to these Terms.</p>
+    <p class="eyebrow" data-i18n="legalUpdated">Last updated: June 17, 2026</p>
+    <h1 data-i18n="termsPageTitle">Terms of Use</h1>
+    <p data-i18n="termsIntro">These Terms apply to the IdiomSwipe iOS app and this website. By using IdiomSwipe, you agree to these Terms.</p>
 
     <section>
-      <h2>App license</h2>
-      <p>IdiomSwipe is licensed, not sold. If you download the app from the App Store, Apple's Standard End User License Agreement applies unless a separate custom license is provided.</p>
-      <p><a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">Apple Standard EULA</a></p>
+      <h2 data-i18n="termsLicenseTitle">App license</h2>
+      <p data-i18n="termsLicenseText">IdiomSwipe is licensed, not sold. If you download the app from the App Store, Apple's Standard End User License Agreement applies unless a separate custom license is provided.</p>
+      <p><a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" data-i18n="termsEulaLink">Apple Standard EULA</a></p>
     </section>
 
     <section>
-      <h2>Learning content</h2>
-      <p>IdiomSwipe provides educational language-learning content for practice and reference. Meanings, translations, examples, and cultural equivalents are intended to help learning and may not cover every possible context.</p>
+      <h2 data-i18n="termsLearningTitle">Learning content</h2>
+      <p data-i18n="termsLearningText">IdiomSwipe provides educational language-learning content for practice and reference. Meanings, translations, examples, and cultural equivalents are intended to help learning and may not cover every possible context.</p>
     </section>
 
     <section>
-      <h2>Subscriptions and purchases</h2>
-      <p>Some features may require IdiomSwipe Pro. Subscription prices, trial availability, renewal terms, and purchase confirmation are shown in Apple's purchase sheet before payment.</p>
-      <p>Subscriptions renew automatically unless canceled through your Apple ID settings. Apple handles billing, cancellations, refunds, and payment processing.</p>
+      <h2 data-i18n="termsSubscriptionsTitle">Subscriptions and purchases</h2>
+      <p data-i18n="termsSubscriptionsText">Some features may require IdiomSwipe Pro. Subscription prices, trial availability, renewal terms, and purchase confirmation are shown in Apple's purchase sheet before payment.</p>
+      <p data-i18n="termsRenewalText">Subscriptions renew automatically unless canceled through your Apple ID settings. Apple handles billing, cancellations, refunds, and payment processing.</p>
     </section>
 
     <section>
-      <h2>Acceptable use</h2>
-      <p>You agree not to misuse the app, attempt to reverse engineer it except where allowed by law, interfere with its operation, or use its content in a way that violates applicable law or third-party rights.</p>
+      <h2 data-i18n="termsUseTitle">Acceptable use</h2>
+      <p data-i18n="termsUseText">You agree not to misuse the app, attempt to reverse engineer it except where allowed by law, interfere with its operation, or use its content in a way that violates applicable law or third-party rights.</p>
     </section>
 
     <section>
-      <h2>No guarantee</h2>
-      <p>The app is provided for educational use. IdiomSwipe does not guarantee that every phrase, translation, example, or review schedule will be error-free or suitable for every situation.</p>
+      <h2 data-i18n="termsGuaranteeTitle">No guarantee</h2>
+      <p data-i18n="termsGuaranteeText">The app is provided for educational use. IdiomSwipe does not guarantee that every phrase, translation, example, or review schedule will be error-free or suitable for every situation.</p>
     </section>
 
     <section>
-      <h2>Changes</h2>
-      <p>These Terms may be updated when the app changes. The latest version will be posted on this page.</p>
+      <h2 data-i18n="legalChangesTitle">Changes</h2>
+      <p data-i18n="termsChangesText">These Terms may be updated when the app changes. The latest version will be posted on this page.</p>
     </section>
 
     <section>
-      <h2>Contact</h2>
-      <p>For support questions, use the developer contact method listed on the IdiomSwipe App Store page.</p>
+      <h2 data-i18n="legalContactTitle">Contact</h2>
+      <p data-i18n="termsContactText">For support questions, use the developer contact method listed on the IdiomSwipe App Store page.</p>
     </section>
   </main>
 
   <footer class="site-footer">
     <span>IdiomSwipe</span>
     <div>
-      <a href="index.html">Home</a>
-      <a href="privacy.html">Privacy Policy</a>
+      <a href="index.html" data-i18n="navHome">Home</a>
+      <a href="privacy.html" data-i18n="navPrivacyPolicy">Privacy Policy</a>
     </div>
   </footer>
+  <script src="script.js"></script>
 </body>
 </html>

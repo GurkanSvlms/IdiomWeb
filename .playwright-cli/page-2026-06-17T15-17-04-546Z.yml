@@ -1,0 +1,49 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - link "IdiomSwipe ana sayfa" [ref=e3] [cursor=pointer]:
+      - /url: index.html
+      - generic [ref=e4]: IS
+      - generic [ref=e5]: IdiomSwipe
+    - group "Language" [ref=e6]:
+      - button "EN" [ref=e7] [cursor=pointer]
+      - button "TR" [pressed] [ref=e8] [cursor=pointer]
+    - navigation [ref=e9]:
+      - link "Ana Sayfa" [ref=e10] [cursor=pointer]:
+        - /url: index.html
+      - link "Koşullar" [ref=e11] [cursor=pointer]:
+        - /url: terms.html
+  - main [ref=e12]:
+    - paragraph [ref=e13]: "Son güncelleme: 17 Haziran 2026"
+    - heading "Gizlilik Politikası" [level=1] [ref=e14]
+    - paragraph [ref=e15]: IdiomSwipe, İngilizce ve Türkçe ifadeler için yerel öncelikli bir öğrenme uygulaması olarak tasarlanmıştır. Bu politika uygulamanın ne sakladığını ve ne toplamadığını açıklar.
+    - generic [ref=e16]:
+      - heading "Cihazında saklanan bilgiler" [level=2] [ref=e17]
+      - paragraph [ref=e18]: Uygulama; öğrenme yönünü, ilerlemeyi, XP'yi, serileri, favorileri, tekrar durumunu, quiz sonuçlarını, günlük kullanım sayaçlarını, uygulama dili tercihini ve abonelik erişim durumunu cihazında yerel olarak saklayabilir.
+    - generic [ref=e19]:
+      - heading "v1'de hesap, takip veya backend yok" [level=2] [ref=e20]
+      - paragraph [ref=e21]: IdiomSwipe v1; hesap kaydı, backend servisi, üçüncü taraf analiz, reklam takibi, harici yapay zeka API'leri veya reklam kimlikleri içermez.
+    - generic [ref=e22]:
+      - heading "Satın almalar" [level=2] [ref=e23]
+      - paragraph [ref=e24]: Abonelikler ve satın almalar Apple tarafından StoreKit ve Apple ID üzerinden yönetilir. IdiomSwipe ödeme kartı bilgilerini almaz veya saklamaz.
+    - generic [ref=e25]:
+      - heading "Cihaz özellikleri" [level=2] [ref=e26]
+      - paragraph [ref=e27]: Uygulama; ses oynatma, dokunsal geri bildirim, etkinleştirilirse yerel bildirimler ve öğrenme ilerlemesi için yerel depolama gibi cihaz özelliklerini kullanabilir. Bu özellikler yalnızca uygulama deneyimi için kullanılır.
+    - generic [ref=e28]:
+      - heading "Verileri silme" [level=2] [ref=e29]
+      - paragraph [ref=e30]: Yerel IdiomSwipe verilerini uygulamayı cihazından silerek kaldırabilirsin. Bazı cihaz yedekleri veya Apple hesabı satın alma kayıtları Apple ayarlarına göre Apple tarafından yönetilebilir.
+    - generic [ref=e31]:
+      - heading "Çocukların gizliliği" [level=2] [ref=e32]
+      - paragraph [ref=e33]: IdiomSwipe çocuklardan bilerek kişisel bilgi toplamaz. Uygulama v1'de yerel öncelikli olduğu ve hesap sistemi içermediği için geliştirici uygulama için kullanıcı veritabanı işletmez.
+    - generic [ref=e34]:
+      - heading "Değişiklikler" [level=2] [ref=e35]
+      - paragraph [ref=e36]: Bu politika, uygulamaya yeni özellikler veya servisler eklendiğinde güncellenebilir. En güncel sürüm bu sayfada yayınlanır.
+    - generic [ref=e37]:
+      - heading "İletişim" [level=2] [ref=e38]
+      - paragraph [ref=e39]: Destek veya gizlilik soruları için IdiomSwipe App Store sayfasında listelenen geliştirici iletişim yöntemini kullan.
+  - contentinfo [ref=e40]:
+    - generic [ref=e41]: IdiomSwipe
+    - generic [ref=e42]:
+      - link "Ana Sayfa" [ref=e43] [cursor=pointer]:
+        - /url: index.html
+      - link "Kullanım Koşulları" [ref=e44] [cursor=pointer]:
+        - /url: terms.html

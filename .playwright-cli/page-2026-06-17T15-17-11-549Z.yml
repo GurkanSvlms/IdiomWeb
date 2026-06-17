@@ -1,0 +1,50 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - link "IdiomSwipe ana sayfa" [ref=e3] [cursor=pointer]:
+      - /url: index.html
+      - generic [ref=e4]: IS
+      - generic [ref=e5]: IdiomSwipe
+    - group "Language" [ref=e6]:
+      - button "EN" [ref=e7] [cursor=pointer]
+      - button "TR" [pressed] [ref=e8] [cursor=pointer]
+    - navigation [ref=e9]:
+      - link "Ana Sayfa" [ref=e10] [cursor=pointer]:
+        - /url: index.html
+      - link "Gizlilik" [ref=e11] [cursor=pointer]:
+        - /url: privacy.html
+  - main [ref=e12]:
+    - paragraph [ref=e13]: "Son güncelleme: 17 Haziran 2026"
+    - heading "Kullanım Koşulları" [level=1] [ref=e14]
+    - paragraph [ref=e15]: Bu Koşullar IdiomSwipe iOS uygulaması ve bu internet sitesi için geçerlidir. IdiomSwipe'ı kullanarak bu Koşulları kabul etmiş olursun.
+    - generic [ref=e16]:
+      - heading "Uygulama lisansı" [level=2] [ref=e17]
+      - paragraph [ref=e18]: IdiomSwipe satılmaz, lisanslanır. Uygulamayı App Store'dan indirirsen ayrı bir özel lisans sağlanmadığı sürece Apple'ın Standart Son Kullanıcı Lisans Sözleşmesi geçerlidir.
+      - paragraph [ref=e19]:
+        - link "Apple Standart EULA" [ref=e20] [cursor=pointer]:
+          - /url: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+    - generic [ref=e21]:
+      - heading "Öğrenme içeriği" [level=2] [ref=e22]
+      - paragraph [ref=e23]: IdiomSwipe pratik ve başvuru amacıyla eğitim odaklı dil öğrenme içeriği sunar. Anlamlar, çeviriler, örnekler ve kültürel karşılıklar öğrenmeye yardımcı olmak içindir ve her bağlamı kapsamayabilir.
+    - generic [ref=e24]:
+      - heading "Abonelikler ve satın almalar" [level=2] [ref=e25]
+      - paragraph [ref=e26]: Bazı özellikler IdiomSwipe Pro gerektirebilir. Abonelik fiyatları, deneme uygunluğu, yenileme koşulları ve satın alma onayı ödeme öncesinde Apple satın alma ekranında gösterilir.
+      - paragraph [ref=e27]: Abonelikler Apple ID ayarlarından iptal edilmediği sürece otomatik yenilenir. Faturalandırma, iptaller, iadeler ve ödeme işlemleri Apple tarafından yönetilir.
+    - generic [ref=e28]:
+      - heading "Kabul edilebilir kullanım" [level=2] [ref=e29]
+      - paragraph [ref=e30]: Uygulamayı kötüye kullanmamayı, yasanın izin verdiği durumlar dışında tersine mühendislik yapmamayı, çalışmasına müdahale etmemeyi ve içeriğini yürürlükteki yasaları veya üçüncü taraf haklarını ihlal edecek şekilde kullanmamayı kabul edersin.
+    - generic [ref=e31]:
+      - heading "Garanti yok" [level=2] [ref=e32]
+      - paragraph [ref=e33]: Uygulama eğitim amacıyla sunulur. IdiomSwipe her ifade, çeviri, örnek veya tekrar planının hatasız ya da her durum için uygun olacağını garanti etmez.
+    - generic [ref=e34]:
+      - heading "Değişiklikler" [level=2] [ref=e35]
+      - paragraph [ref=e36]: Bu Koşullar uygulama değiştikçe güncellenebilir. En güncel sürüm bu sayfada yayınlanır.
+    - generic [ref=e37]:
+      - heading "İletişim" [level=2] [ref=e38]
+      - paragraph [ref=e39]: Destek soruları için IdiomSwipe App Store sayfasında listelenen geliştirici iletişim yöntemini kullan.
+  - contentinfo [ref=e40]:
+    - generic [ref=e41]: IdiomSwipe
+    - generic [ref=e42]:
+      - link "Ana Sayfa" [ref=e43] [cursor=pointer]:
+        - /url: index.html
+      - link "Gizlilik Politikası" [ref=e44] [cursor=pointer]:
+        - /url: privacy.html

@@ -1,0 +1,87 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - link "IdiomSwipe ana sayfa" [ref=e3] [cursor=pointer]:
+      - /url: index.html
+      - generic [ref=e4]: IS
+      - generic [ref=e5]: IdiomSwipe
+    - group "Language" [ref=e6]:
+      - button "EN" [ref=e7] [cursor=pointer]
+      - button "TR" [pressed] [ref=e8] [cursor=pointer]
+    - navigation [ref=e9]:
+      - link "Özellikler" [ref=e10] [cursor=pointer]:
+        - /url: "#features"
+      - link "Gizlilik" [ref=e11] [cursor=pointer]:
+        - /url: "#privacy"
+      - link "Koşullar" [ref=e12] [cursor=pointer]:
+        - /url: terms.html
+      - link "Gizlilik Politikası" [ref=e13] [cursor=pointer]:
+        - /url: privacy.html
+  - main [ref=e14]:
+    - generic [ref=e15]:
+      - generic [ref=e16]:
+        - paragraph [ref=e17]: İngilizce ve Türkçe ifadeler
+        - heading "Gerçek hayatta kullanılan ifadeleri öğren." [level=1] [ref=e18]
+        - paragraph [ref=e19]: Kısa kartlar, net anlamlar, kültürel karşılıklar ve gün içine sığan hızlı alıştırmalarla doğal İngilizce ve Türkçe geliştir.
+        - generic [ref=e20]:
+          - link "Yakında App Store'da" [ref=e21] [cursor=pointer]:
+            - /url: "#download"
+          - link "Özellikleri keşfet" [ref=e22] [cursor=pointer]:
+            - /url: "#features"
+        - generic "Ürün öne çıkanları" [ref=e23]:
+          - generic [ref=e24]: Yerel öncelikli
+          - generic [ref=e25]: İki dilli
+          - generic [ref=e26]: Mini quizler
+      - figure [ref=e27]:
+        - img "Kaydırmalı kartlar, ilerleme ve mini dersler içeren IdiomSwipe uygulama önizlemesi" [ref=e28]
+    - region "Keşfet, kaydır, hatırla, konuş." [ref=e29]:
+      - generic [ref=e30]:
+        - paragraph [ref=e31]: Basit öğrenme döngüsü
+        - heading "Keşfet, kaydır, hatırla, konuş." [level=2] [ref=e32]
+      - generic [ref=e33]:
+        - article [ref=e34]:
+          - generic [ref=e35]: "01"
+          - heading "Doğal anlamı yakala" [level=3] [ref=e36]
+          - paragraph [ref=e37]: Deyimleri, phrasal verbleri, atasözlerini, Türkçe deyimleri ve kültürel eşleşmeleri sade açıklamalarla öğren.
+        - article [ref=e38]:
+          - generic [ref=e39]: "02"
+          - heading "Hızlı kaydır" [level=3] [ref=e40]
+          - paragraph [ref=e41]: Akışı bozmadan kartları biliyorum, öğreniyorum, favori ya da sonra tekrar et olarak ayır.
+        - article [ref=e42]:
+          - generic [ref=e43]: "03"
+          - heading "Kısa pratik yap" [level=3] [ref=e44]
+          - paragraph [ref=e45]: İfadeleri mini quizlere dönüştür, hafızanı güçlendir; seri, XP ve ilerlemeni görünür tut.
+        - article [ref=e46]:
+          - generic [ref=e47]: "04"
+          - heading "Daha akıllı tekrar et" [level=3] [ref=e48]
+          - paragraph [ref=e49]: İfadeye doğru zamanda geri dön ve gerçek konuşmalarda kullanmak istediğin cümleleri elinin altında tut.
+    - generic [ref=e50]:
+      - generic [ref=e51]:
+        - paragraph [ref=e52]: Gerçek konuşma için
+        - heading "Kelime kelime çeviri değil." [level=2] [ref=e53]
+      - paragraph [ref=e54]: "IdiomSwipe konuşmanı doğal yapan ifadelere odaklanır: günlük deyimler, iş hayatında geçen kalıplar, işe yarar atasözleri ve birebir çevirinin yetmediği yerde en yakın iki dilli karşılıklar."
+    - region "Öğrenme verilerin cihazında kalır." [ref=e55]:
+      - generic [ref=e56]:
+        - paragraph [ref=e57]: Gizlilik odaklı tasarım
+        - heading "Öğrenme verilerin cihazında kalır." [level=2] [ref=e58]
+        - paragraph [ref=e59]: IdiomSwipe v1 yerel önceliklidir. Uygulamada hesap sistemi, takip, backend ya da harici API yoktur. Öğrenme ilerlemesi, favoriler, tekrar durumu ve ayarlar cihazda yerel olarak saklanır.
+      - generic "Gizlilik özeti" [ref=e60]:
+        - generic [ref=e61]: Giriş yok
+        - generic [ref=e62]: Reklam kimliği yok
+        - generic [ref=e63]: Üçüncü taraf analiz yok
+        - generic [ref=e64]: Satın almalar Apple üzerinden
+    - region "Ana dili gibi konuşmak için kaydır." [ref=e65]:
+      - paragraph [ref=e66]: App Store için hazır
+      - heading "Ana dili gibi konuşmak için kaydır." [level=2] [ref=e67]
+      - paragraph [ref=e68]: App Store gizlilik ve abonelik inceleme bilgileri için bu bağlantıları kullan.
+      - generic [ref=e69]:
+        - link "Gizlilik Politikası" [ref=e70] [cursor=pointer]:
+          - /url: privacy.html
+        - link "Kullanım Koşulları" [ref=e71] [cursor=pointer]:
+          - /url: terms.html
+  - contentinfo [ref=e72]:
+    - generic [ref=e73]: IdiomSwipe
+    - generic [ref=e74]:
+      - link "Gizlilik Politikası" [ref=e75] [cursor=pointer]:
+        - /url: privacy.html
+      - link "Kullanım Koşulları" [ref=e76] [cursor=pointer]:
+        - /url: terms.html

@@ -10,103 +10,107 @@
   <meta property="og:image" content="assets/idiomswipe-product-shot.png">
   <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+<body data-page="home">
   <header class="site-header">
-    <a class="brand" href="index.html" aria-label="IdiomSwipe home">
+    <a class="brand" href="index.html" aria-label="IdiomSwipe home" data-i18n-aria="brandAria">
       <span class="brand-mark">IS</span>
       <span>IdiomSwipe</span>
     </a>
-    <button class="menu-button" type="button" aria-label="Open menu" aria-expanded="false" data-menu-button>
+    <div class="language-switch" role="group" aria-label="Language">
+      <button type="button" data-lang-option="en">EN</button>
+      <button type="button" data-lang-option="tr">TR</button>
+    </div>
+    <button class="menu-button" type="button" aria-label="Open menu" aria-expanded="false" data-menu-button data-i18n-aria="menuAria">
       <span></span>
       <span></span>
     </button>
     <nav class="site-nav" data-nav>
-      <a href="#features">Features</a>
-      <a href="#privacy">Privacy</a>
-      <a href="terms.html">Terms</a>
-      <a href="privacy.html">Privacy Policy</a>
+      <a href="#features" data-i18n="navFeatures">Features</a>
+      <a href="#privacy" data-i18n="navPrivacy">Privacy</a>
+      <a href="terms.html" data-i18n="navTerms">Terms</a>
+      <a href="privacy.html" data-i18n="navPrivacyPolicy">Privacy Policy</a>
     </nav>
   </header>
 
   <main>
     <section class="hero">
       <div class="hero-copy">
-        <p class="eyebrow">English and Turkish expressions</p>
-        <h1>Learn expressions people actually use.</h1>
-        <p class="hero-text">Build natural English and Turkish with short swipe cards, clear meanings, cultural equivalents, and quick practice that fits into the day.</p>
+        <p class="eyebrow" data-i18n="heroEyebrow">English and Turkish expressions</p>
+        <h1 data-i18n="heroTitle">Learn expressions people actually use.</h1>
+        <p class="hero-text" data-i18n="heroText">Build natural English and Turkish with short swipe cards, clear meanings, cultural equivalents, and quick practice that fits into the day.</p>
         <div class="hero-actions">
-          <a class="primary-link" href="#download">Coming soon on the App Store</a>
-          <a class="secondary-link" href="#features">Explore features</a>
+          <a class="primary-link" href="#download" data-i18n="heroPrimary">Coming soon on the App Store</a>
+          <a class="secondary-link" href="#features" data-i18n="heroSecondary">Explore features</a>
         </div>
-        <div class="proof-row" aria-label="Product highlights">
-          <span>Local-first</span>
-          <span>Bilingual</span>
-          <span>Mini quizzes</span>
+        <div class="proof-row" aria-label="Product highlights" data-i18n-aria="proofAria">
+          <span data-i18n="proofLocal">Local-first</span>
+          <span data-i18n="proofBilingual">Bilingual</span>
+          <span data-i18n="proofQuizzes">Mini quizzes</span>
         </div>
       </div>
       <figure class="hero-media">
-        <img src="assets/idiomswipe-product-shot.png" alt="IdiomSwipe app preview with swipe cards, progress, and mini lessons">
+        <img src="assets/idiomswipe-product-shot.png" alt="IdiomSwipe app preview with swipe cards, progress, and mini lessons" data-i18n-alt="heroImageAlt">
       </figure>
     </section>
 
     <section class="journey" id="features" aria-labelledby="features-title">
       <div class="section-heading">
-        <p class="eyebrow">A simple learning loop</p>
-        <h2 id="features-title">Discover, swipe, remember, speak.</h2>
+        <p class="eyebrow" data-i18n="featuresEyebrow">A simple learning loop</p>
+        <h2 id="features-title" data-i18n="featuresTitle">Discover, swipe, remember, speak.</h2>
       </div>
       <div class="journey-grid">
         <article>
           <span class="step">01</span>
-          <h3>Find natural meaning</h3>
-          <p>Learn idioms, phrasal verbs, proverbs, Turkish deyimler, atasozleri, and cultural pairs with plain explanations.</p>
+          <h3 data-i18n="featureOneTitle">Find natural meaning</h3>
+          <p data-i18n="featureOneText">Learn idioms, phrasal verbs, proverbs, Turkish deyimler, atasozleri, and cultural pairs with plain explanations.</p>
         </article>
         <article>
           <span class="step">02</span>
-          <h3>Swipe fast</h3>
-          <p>Sort each card as known, learning, favorite, or review later without breaking your flow.</p>
+          <h3 data-i18n="featureTwoTitle">Swipe fast</h3>
+          <p data-i18n="featureTwoText">Sort each card as known, learning, favorite, or review later without breaking your flow.</p>
         </article>
         <article>
           <span class="step">03</span>
-          <h3>Practice quickly</h3>
-          <p>Turn expressions into short quizzes, reinforce memory, and keep streaks, XP, and progress visible.</p>
+          <h3 data-i18n="featureThreeTitle">Practice quickly</h3>
+          <p data-i18n="featureThreeText">Turn expressions into short quizzes, reinforce memory, and keep streaks, XP, and progress visible.</p>
         </article>
         <article>
           <span class="step">04</span>
-          <h3>Review smarter</h3>
-          <p>Return to expressions at the right time and keep the phrases you want to use in real conversations.</p>
+          <h3 data-i18n="featureFourTitle">Review smarter</h3>
+          <p data-i18n="featureFourText">Return to expressions at the right time and keep the phrases you want to use in real conversations.</p>
         </article>
       </div>
     </section>
 
     <section class="content-band">
       <div>
-        <p class="eyebrow">Made for real conversation</p>
-        <h2>Not word-for-word translation.</h2>
+        <p class="eyebrow" data-i18n="contentEyebrow">Made for real conversation</p>
+        <h2 data-i18n="contentTitle">Not word-for-word translation.</h2>
       </div>
-      <p>IdiomSwipe focuses on the phrases that make speech sound natural: everyday idioms, workplace expressions, useful proverbs, and the closest bilingual equivalents when a literal translation is not enough.</p>
+      <p data-i18n="contentText">IdiomSwipe focuses on the phrases that make speech sound natural: everyday idioms, workplace expressions, useful proverbs, and the closest bilingual equivalents when a literal translation is not enough.</p>
     </section>
 
     <section class="privacy-band" id="privacy" aria-labelledby="privacy-title">
       <div class="privacy-copy">
-        <p class="eyebrow">Privacy-first by design</p>
-        <h2 id="privacy-title">Your learning stays on your device.</h2>
-        <p>IdiomSwipe v1 is local-first. There is no account system, tracking, backend, or external API in the app. Learning progress, favorites, review state, and settings are stored locally on device.</p>
+        <p class="eyebrow" data-i18n="privacyEyebrow">Privacy-first by design</p>
+        <h2 id="privacy-title" data-i18n="privacyTitle">Your learning stays on your device.</h2>
+        <p data-i18n="privacyText">IdiomSwipe v1 is local-first. There is no account system, tracking, backend, or external API in the app. Learning progress, favorites, review state, and settings are stored locally on device.</p>
       </div>
-      <div class="privacy-list" aria-label="Privacy summary">
-        <span>No login</span>
-        <span>No advertising ID</span>
-        <span>No third-party analytics</span>
-        <span>Apple-managed purchases</span>
+      <div class="privacy-list" aria-label="Privacy summary" data-i18n-aria="privacyListAria">
+        <span data-i18n="privacyItemLogin">No login</span>
+        <span data-i18n="privacyItemAds">No advertising ID</span>
+        <span data-i18n="privacyItemAnalytics">No third-party analytics</span>
+        <span data-i18n="privacyItemPurchases">Apple-managed purchases</span>
       </div>
     </section>
 
     <section class="download" id="download" aria-labelledby="download-title">
-      <p class="eyebrow">App Store ready</p>
-      <h2 id="download-title">Swipe to speak like a native.</h2>
-      <p>Use these links for App Store privacy and subscription review metadata.</p>
+      <p class="eyebrow" data-i18n="downloadEyebrow">App Store ready</p>
+      <h2 id="download-title" data-i18n="downloadTitle">Swipe to speak like a native.</h2>
+      <p data-i18n="downloadText">Use these links for App Store privacy and subscription review metadata.</p>
       <div class="hero-actions">
-        <a class="primary-link" href="privacy.html">Privacy Policy</a>
-        <a class="secondary-link" href="terms.html">Terms of Use</a>
+        <a class="primary-link" href="privacy.html" data-i18n="navPrivacyPolicy">Privacy Policy</a>
+        <a class="secondary-link" href="terms.html" data-i18n="navTermsFull">Terms of Use</a>
       </div>
     </section>
   </main>
@@ -114,8 +118,8 @@
   <footer class="site-footer">
     <span>IdiomSwipe</span>
     <div>
-      <a href="privacy.html">Privacy Policy</a>
-      <a href="terms.html">Terms of Use</a>
+      <a href="privacy.html" data-i18n="navPrivacyPolicy">Privacy Policy</a>
+      <a href="terms.html" data-i18n="navTermsFull">Terms of Use</a>
     </div>
   </footer>
 
