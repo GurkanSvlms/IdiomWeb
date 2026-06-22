@@ -5,12 +5,23 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Privacy Policy - IdiomSwipe</title>
   <meta name="description" content="Privacy Policy for IdiomSwipe.">
+  <meta name="theme-color" content="#f7f7f2" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0f172a" media="(prefers-color-scheme: dark)">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16.png">
+  <link rel="icon" type="image/png" href="assets/app-icon.png" media="(prefers-color-scheme: light)">
+  <link rel="icon" type="image/png" href="assets/app-icon-dark.png" media="(prefers-color-scheme: dark)">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+  <link rel="manifest" href="site.webmanifest">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body data-page="privacy">
   <header class="site-header">
     <a class="brand" href="index.html" aria-label="IdiomSwipe home" data-i18n-aria="brandAria">
-      <span class="brand-mark">IS</span>
+      <picture class="brand-mark" aria-hidden="true">
+        <source srcset="assets/app-icon-dark.png" media="(prefers-color-scheme: dark)">
+        <img src="assets/app-icon.png" alt="">
+      </picture>
       <span>IdiomSwipe</span>
     </a>
     <div class="language-switch" role="group" aria-label="Language">
